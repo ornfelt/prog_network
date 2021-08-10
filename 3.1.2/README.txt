@@ -1,0 +1,1 @@
+This app uses jar file: mysql-connector-java-5.0.8-bin which I imported via eclipse. So, you might need to run the app in an IDE.

@@ -1,0 +1,1 @@
+This app uses jar file: javax.mail which I imported via eclipse. So, you might need to run the app in an IDE.
