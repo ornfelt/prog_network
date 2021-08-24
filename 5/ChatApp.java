@@ -754,7 +754,7 @@ public class ChatApp {
 			    out = new ByteArrayOutputStream();
 			    
 			    //CHUNK_SIZE = 1024;
-			    CHUNK_SIZE = 2048;
+			    CHUNK_SIZE = 512;
 			    data = new byte[microphone.getBufferSize() / 5];
 			    microphone.start();
 		
@@ -806,7 +806,7 @@ public class ChatApp {
 		            public void run () {
 		            	try {
 		                    while(true){
-		                        byte[] buffer = new byte[2048];
+		                        byte[] buffer = new byte[512];
 		       	            	DatagramPacket response = new DatagramPacket(buffer, buffer.length);
 		       	            	socket.receive(response);
 

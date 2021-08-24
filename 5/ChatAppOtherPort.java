@@ -754,7 +754,8 @@ public class ChatAppOtherPort {
 			    out = new ByteArrayOutputStream();
 			    
 			    //CHUNK_SIZE = 1024;
-			    CHUNK_SIZE = 2048;
+			    //CHUNK_SIZE = 2048;
+				CHUNK_SIZE = 512;
 			    data = new byte[microphone.getBufferSize() / 5];
 			    microphone.start();
 		
